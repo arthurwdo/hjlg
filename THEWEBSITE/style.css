@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 18px;
+	color: black;
+	padding-top: 20px;
+	position: static;
+	
+}
+
+p {
+	font-family: arial;
+	font-size: 12px;
+	color: #222;
+	padding-top: 15px;
+	position: static;
+	
+	
+}
+		/*navigationbar*/
+
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: #ECECEC;
+}
+
+nav p {
+	font-family: arial;
+	color: #222;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+	padding-right: 6%;
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	font-family: arial;
+	color: #222;
+	font-size: 14px;
+	padding: 22px 25px;
+	text-decoration: none;
+	z-index: 999;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #D7D7D7;
+	padding: 0px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+	display: block;
+	
+}
+
+
+nav ul li ul li {
+	width: 180px;
+	border-radius: 3px;
+}
+
+nav ul li ul li a{
+	padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+	background-color: #E2E2E2;
+}
+
+/* -----HOME IMAGES----*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	padding: 0px;
+	float: left;
+}
+
+.column img {
+    width: 49.5%;
+    height: auto;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (min-width : 500px ){
+    .column {
+        width: 49.5%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+/* carousel css*/
+.carousel .slide {
+
+}
+
+.item .active {
+
+}
+
+.left .carousel-control {
+
+}
+
+
+
+* {box-sizing:border-box}
+
+.carousel-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-indicators {
+
+	
+}
+.glyphicon .glyphicon-chevron-left {
+
+	
+}
+	/*Luminaire presentation boards*/
+.luminboard1 {
+	float: left;
+	width: 50%;
+	padding-left: 3%;
+}	
+.luminboard2 {
+	float: right;
+	width: 50%;
+	padding-right: 3%;
+}
+	/*FountainPenpage*/
+
+.penlogo {
+	width: 20%;
+	position: static;
+	float: left;
+	padding-top: 20px;
+	clip: rect(20px,20px,20px,20px);
+}
+.penheader {
+	font-family: arial;
+	font-size: 18px;
+	color: black;
+	padding-top: 20px;
+	position: static;
+	float: center;
+}
+.pentype {
+	font-family: arial;
+	font-size: 12px;
+	color: #222;
+	padding-top: 15px;
+	position: static;
+	
+}
+.widepenimg {
+	float: right;
+	width: 100%;
+	
+}
+.pennib {
+	align-self: auto;
+}
+.brandvideo {
+
+	
+}
+.inktop {
+}
+
+		/*madmaxchairdesign*/
+.mmsketch {
+	float: left;
+	position: static;
+	padding-top: 260px;
+	width: 50%;
+}
+
+.chairsketch {
+	width: 20%;
+	padding-top: 5%
+	
+}
+
+.chairheader {
+	font-family: arial;
+	font-size: 18px;
+	color: black;
+	padding-top: 20px;
+	position: static;
+	width: 5%;
+	padding-left: 60%;
+}
+
+.chairtext {
+	font-family: arial;
+	font-size: 12px;
+	color: #222;
+	padding-top: 15px;
+	position: static;
+	float: right;
+	width: 40%;
+	padding-right: 50px;
+	padding-bottom:25px;
+	
+	
+}
+
+.chairmodel {
+	width: 23%;
+	
+}
+.rfulogos {
+	float: left;
+}
+.gloveidea {
+	float: left;
+}
+.gloves {
+	float: right;
+}
+.sketches {
+	width: 33%;
+	position: static;
+	
+}
+
+
+
+.signature {
+	float: right;
+	padding-right: 40%;
+}
